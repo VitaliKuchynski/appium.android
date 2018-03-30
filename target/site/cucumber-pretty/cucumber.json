@@ -1,0 +1,266 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 30503670031,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on hotel app home page",
+            "match": {
+              "location": "CreateAccountSD.iAmOnHotelAppHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Verify successful creation of creating account",
+        "description": "",
+        "id": "hotels-app-account-login-feature;verify-successful-creation-of-creating-account",
+        "after": [
+          {
+            "result": {
+              "duration": 5507682883,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.quitAppiumDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39504,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I scroll down page",
+            "match": {
+              "location": "CreateAccountSD.iScrollDown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5137216700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I tap on Create Account button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create Account",
+                  "offset": 9
+                }
+              ],
+              "location": "CreateAccountSD.iTapOnCreateAccountButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20625500993,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I fill out all required fields",
+            "match": {
+              "location": "CreateAccountSD.iFillOutAllRequiredFields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6544123114,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I submit the form",
+            "match": {
+              "location": "CreateAccountSD.iSubmitTheForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5044914004,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify successful creation of a home page",
+            "match": {
+              "location": "CreateAccountSD.verifySuccessfulCreationOfAHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Account-creation"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25397128045,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on hotel app home page",
+            "match": {
+              "location": "CreateAccountSD.iAmOnHotelAppHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify invalid login on android hotel app",
+        "description": "",
+        "id": "hotels-app-account-login-feature;verify-invalid-login-on-android-hotel-app",
+        "after": [
+          {
+            "result": {
+              "duration": 5499079626,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.quitAppiumDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21678,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I scroll down page",
+            "match": {
+              "location": "CreateAccountSD.iScrollDown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10131320936,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I tap on Sign in button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign in",
+                  "offset": 9
+                }
+              ],
+              "location": "CreateAccountSD.iTapOnCreateAccountButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5582404211,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter grisha@tut.by invalid to username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "grisha@tut.by",
+                  "offset": 8
+                },
+                {
+                  "val": "username",
+                  "offset": 33
+                }
+              ],
+              "location": "CreateAccountSD.iEnterCredential(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6151471998,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter 123hotels invalid to password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123hotels",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 29
+                }
+              ],
+              "location": "CreateAccountSD.iEnterCredential(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38659,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify invalid error message",
+            "match": {
+              "location": "CreateAccountSD.verifyInvalidError()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Login-invalid"
+          }
+        ]
+      }
+    ],
+    "name": "Hotels app account login feature",
+    "description": "",
+    "id": "hotels-app-account-login-feature",
+    "keyword": "Feature",
+    "uri": "account-login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Hotels-Android"
+      }
+    ]
+  }
+]

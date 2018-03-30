@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1522449020656" stop="1522449123752" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify successful creation of creating account</name>
+    <title>Verify successful creation of creating account</title>
+    <test-cases>
+        <test-case start="1522449030688" stop="1522449030692" status="passed">
+            <name>Given I am on hotel app home page</name>
+            <title>Given I am on hotel app home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449040824" stop="1522449040825" status="passed">
+            <name>When I scroll down page</name>
+            <title>When I scroll down page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449055979" stop="1522449055979" status="passed">
+            <name>And I tap on Create Account button</name>
+            <title>And I tap on Create Account button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449086617" stop="1522449086617" status="passed">
+            <name>And I fill out all required fields</name>
+            <title>And I fill out all required fields</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449103178" stop="1522449103178" status="passed">
+            <name>And I submit the form</name>
+            <title>And I submit the form</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449118237" stop="1522449118237" status="passed">
+            <name>Then I verify successful creation of a home page</name>
+            <title>Then I verify successful creation of a home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify successful creation of creating account"/>
+        <label name="feature" value="Hotels app account login feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,8 @@
+stepdefinition/SharedSD.class
+util/AppiumWrapper.class
+framework/BaseAction.class
+framework/hotels/CreateAccountScreen.class
+stepdefinition/hotels/CreateAccountSD.class
+framework/TestRanner.class
+framework/hotels/LandingScreen.class
+framework/hotels/LoginScreen.class

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1522449149590" stop="1522449237022" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify invalid login on android hotel app</name>
+    <title>Verify invalid login on android hotel app</title>
+    <test-cases>
+        <test-case start="1522449159597" stop="1522449159597" status="passed">
+            <name>Given I am on hotel app home page</name>
+            <title>Given I am on hotel app home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449169610" stop="1522449169610" status="passed">
+            <name>When I scroll down page</name>
+            <title>When I scroll down page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449189752" stop="1522449189752" status="passed">
+            <name>And I tap on Sign in button</name>
+            <title>And I tap on Sign in button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449205343" stop="1522449205343" status="passed">
+            <name>And I enter grisha@tut.by invalid to username field</name>
+            <title>And I enter grisha@tut.by invalid to username field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449221507" stop="1522449221507" status="passed">
+            <name>And I enter 123hotels invalid to password field</name>
+            <title>And I enter 123hotels invalid to password field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1522449231519" stop="1522449231519" status="passed">
+            <name>Then I verify invalid error message</name>
+            <title>Then I verify invalid error message</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Vitalis-MacBook-Pro.local"/>
+                <label name="thread" value="24545@Vitalis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify invalid login on android hotel app"/>
+        <label name="feature" value="Hotels app account login feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

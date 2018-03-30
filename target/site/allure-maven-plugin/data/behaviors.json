@@ -1,0 +1,170 @@
+{
+  "features" : [ {
+    "title" : "Hotels app account login feature",
+    "statistic" : {
+      "total" : 12,
+      "passed" : 12,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "9f019a3eec6b76",
+      "title" : "Verify successful creation of creating account",
+      "statistic" : {
+        "total" : 6,
+        "passed" : 6,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "19cb64157d2bb087",
+        "name" : "Given I am on hotel app home page",
+        "title" : "Given I am on hotel app home page",
+        "time" : {
+          "start" : 1522449030688,
+          "stop" : 1522449030692,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b9fb37a98090f050",
+        "name" : "When I scroll down page",
+        "title" : "When I scroll down page",
+        "time" : {
+          "start" : 1522449040824,
+          "stop" : 1522449040825,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bc2cc66215a2260",
+        "name" : "And I tap on Create Account button",
+        "title" : "And I tap on Create Account button",
+        "time" : {
+          "start" : 1522449055979,
+          "stop" : 1522449055979,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7053f174be9cad92",
+        "name" : "And I fill out all required fields",
+        "title" : "And I fill out all required fields",
+        "time" : {
+          "start" : 1522449086617,
+          "stop" : 1522449086617,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "750a3630a0f906a5",
+        "name" : "And I submit the form",
+        "title" : "And I submit the form",
+        "time" : {
+          "start" : 1522449103178,
+          "stop" : 1522449103178,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4cf6bd6847d41fd2",
+        "name" : "Then I verify successful creation of a home page",
+        "title" : "Then I verify successful creation of a home page",
+        "time" : {
+          "start" : 1522449118237,
+          "stop" : 1522449118237,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "1040acd005d2fce9",
+      "title" : "Verify invalid login on android hotel app",
+      "statistic" : {
+        "total" : 6,
+        "passed" : 6,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "3524e6b4d72331a7",
+        "name" : "Given I am on hotel app home page",
+        "title" : "Given I am on hotel app home page",
+        "time" : {
+          "start" : 1522449159597,
+          "stop" : 1522449159597,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b0c4f3822de5e1c2",
+        "name" : "When I scroll down page",
+        "title" : "When I scroll down page",
+        "time" : {
+          "start" : 1522449169610,
+          "stop" : 1522449169610,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6ac75803dbd99980",
+        "name" : "And I tap on Sign in button",
+        "title" : "And I tap on Sign in button",
+        "time" : {
+          "start" : 1522449189752,
+          "stop" : 1522449189752,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "97c014c50099ae8a",
+        "name" : "And I enter grisha@tut.by invalid to username field",
+        "title" : "And I enter grisha@tut.by invalid to username field",
+        "time" : {
+          "start" : 1522449205343,
+          "stop" : 1522449205343,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2f1c279a8f402ef7",
+        "name" : "And I enter 123hotels invalid to password field",
+        "title" : "And I enter 123hotels invalid to password field",
+        "time" : {
+          "start" : 1522449221507,
+          "stop" : 1522449221507,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3453ddf736449c10",
+        "name" : "Then I verify invalid error message",
+        "title" : "Then I verify invalid error message",
+        "time" : {
+          "start" : 1522449231519,
+          "stop" : 1522449231519,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "7053f174be9cad92",
+  "name" : "And I fill out all required fields",
+  "title" : "And I fill out all required fields",
+  "time" : {
+    "start" : 1522449086617,
+    "stop" : 1522449086617,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "84f3d4f072c6306c",
+    "name" : "Verify successful creation of creating account",
+    "title" : "Verify successful creation of creating account"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "24545@Vitalis-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Vitalis-MacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify successful creation of creating account"
+  }, {
+    "name" : "feature",
+    "value" : "Hotels app account login feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "story",
+    "value" : "Verify successful creation of creating account"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify successful creation of creating account"
+  } ],
+  "parameters" : [ ]
+}

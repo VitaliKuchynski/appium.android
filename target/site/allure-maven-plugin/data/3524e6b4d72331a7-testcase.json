@@ -1,0 +1,53 @@
+{
+  "uid" : "3524e6b4d72331a7",
+  "name" : "Given I am on hotel app home page",
+  "title" : "Given I am on hotel app home page",
+  "time" : {
+    "start" : 1522449159597,
+    "stop" : 1522449159597,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7689b8b84edcf7bf",
+    "name" : "Verify invalid login on android hotel app",
+    "title" : "Verify invalid login on android hotel app"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Verify invalid login on android hotel app"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify invalid login on android hotel app"
+  }, {
+    "name" : "thread",
+    "value" : "24545@Vitalis-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Vitalis-MacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify invalid login on android hotel app"
+  }, {
+    "name" : "feature",
+    "value" : "Hotels app account login feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}
